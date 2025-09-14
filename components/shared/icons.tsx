@@ -1,0 +1,38 @@
+// Shared icons component for consistent iconography
+import {
+  Home,
+  Users,
+  MessageCircle,
+  Settings,
+  Bell,
+  Search,
+  Menu,
+  LogOut,
+  User,
+  BarChart3,
+  FileText,
+  Shield,
+  Heart,
+  Share,
+  MessageSquare,
+  MoreHorizontal,
+} from "lucide-react"
+
+export const Icons = {
+  home: Home,
+  users: Users,
+  messages: MessageCircle,
+  settings: Settings,
+  notifications: Bell,
+  search: Search,
+  menu: Menu,
+  logout: LogOut,
+  user: User,
+  analytics: BarChart3,
+  posts: FileText,
+  security: Shield,
+  like: Heart,
+  share: Share,
+  comment: MessageSquare,
+  more: MoreHorizontal,
+}
